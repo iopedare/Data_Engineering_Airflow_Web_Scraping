@@ -26,3 +26,4 @@ class ScrapeFuel(BaseScrape):
 
 if __name__=="__main__":
     ScrapeFuel('tmp/nigeria_fuel_price.html').scrape('NG')
+    ScrapeFuel('tmp/kenya_fuel_price.html').scrape('KE')
